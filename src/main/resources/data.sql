@@ -1,0 +1,10 @@
+insert into books (name, language, category) values ('Война и мир', 'rus', 'роман');
+insert into books (name, language, category) values ('Отверженные', 'fr', 'роман');
+insert into books (name, language, category) values ('Гроздья гнева', 'us', 'роман');
+insert into books (name, language, category) values ('Война миров', 'us', 'повесть');
+insert into books (name, language, category) values ('Игра в бисер', 'deu', 'повесть');
+insert into books (name, language, category) values ('Дон Кихот', 'ru', 'повесть');
+insert into books (name, language, category) values ('Руслан и Людмила', 'rus', 'поэзия');
+insert into books (name, language, category) values ('Между классом и дискурсом', 'rus', 'политика');
+insert into books (name, language, category) values ('100 лет одиночества', 'esp', 'роман');
+insert into books (name, language, category) values ('Повелитель мух', 'us', 'рассказ');
