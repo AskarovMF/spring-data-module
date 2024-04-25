@@ -132,11 +132,9 @@ class SpringDataApplicationTests {
         this.mockMvc.perform(delete("/books/6"))
                 .andExpect(status().isOk());
 
-        this.mockMvc.perform(get("/books"))
+        this.mockMvc.perform(get("/books/6"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.*", isA(ArrayList.class)))
-                .andExpect(jsonPath("$.*", hasSize(10)));
+                .andExpect(content().string(""));
     }
 }
